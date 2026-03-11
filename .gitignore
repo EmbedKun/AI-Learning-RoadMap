@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+._*
+
+# Node dependencies
+node_modules/
+
+# Local render temp files
+.roadmap-book-render.html
+.page-counter-test.html
+.page-counter-test.pdf
+.footer-test.html
+.footer-test.pdf
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local course materials not intended for the roadmap repo
+cs224n-2026-lecture01-intro.pdf
+cs224n-2026-lecture02-wordvecs.pdf
+梯度计算.pdf
+自然语言处理课程论文清单-2026(1).xlsx

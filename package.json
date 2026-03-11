@@ -1,0 +1,14 @@
+{
+  "name": "ai-learning-roadmap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub-ready AI learning roadmap and PDF ebook generator by Minkun Xue.",
+  "scripts": {
+    "build:pdf": "node scripts/render-roadmap-pdf.mjs",
+    "build:pdf:list": "node scripts/render-roadmap-pdf.mjs \"AI’s Learning List.md\" \"AI-Learning-Roadmap-Minkun-Xue.pdf\""
+  },
+  "dependencies": {
+    "pdfkit": "^0.17.2",
+    "puppeteer": "^24.39.0"
+  }
+}
