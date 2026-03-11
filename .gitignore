@@ -17,9 +17,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-
-# Local course materials not intended for the roadmap repo
-cs224n-2026-lecture01-intro.pdf
-cs224n-2026-lecture02-wordvecs.pdf
-梯度计算.pdf
-自然语言处理课程论文清单-2026(1).xlsx
