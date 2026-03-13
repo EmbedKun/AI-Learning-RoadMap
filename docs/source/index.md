@@ -1,4 +1,6 @@
-# Preface | 前言
+# Preface
+
+_前言_
 
 ```{toctree}
 :hidden:
@@ -20,9 +22,38 @@ This documentation site now uses **Sphinx + the Read the Docs theme**, so the on
 - Browse the [GitHub repository](https://github.com/EmbedKun/AI-Learning-RoadMap)
 - Use the **Downloads** menu in Read the Docs to get the generated PDF
 
+## English Contents
+
+1. [Preface](index.md)
+2. [Chapter 1. Foundations](chapter-1.md)
+3. [Chapter 2. Models](chapter-2.md)
+4. [Chapter 3. Systems and Infrastructure](chapter-3.md)
+5. [Chapter 4. Applications and Ecosystem](chapter-4.md)
+6. [Chapter 5. Frontier](chapter-5.md)
+7. [Appendix](appendix.md)
+
+## 中文目录
+
+1. [前言](index.md)
+2. [第一章 基础底座](chapter-1.md)
+3. [第二章 模型世界](chapter-2.md)
+4. [第三章 系统与基础设施](chapter-3.md)
+5. [第四章 应用与生态](chapter-4.md)
+6. [第五章 前沿与交叉](chapter-5.md)
+7. [附录](appendix.md)
+
+## Who This Is For
+
+```{include} ../../AI-Learning-Roadmap.md
+:start-after: "## Who This Is For"
+:end-before: "## The Big Picture"
+```
+
+## Why This Roadmap Exists
+
 ```{include} ../../AI-Learning-Roadmap.md
 :start-after: "## Why This Roadmap Exists"
-:end-before: "## The Big Picture"
+:end-before: "## Who This Is For"
 ```
 
 ## The Big Picture
@@ -49,25 +80,5 @@ The five-layer AI stack: energy and data center, chips, infrastructure, models, 
 
 ```{include} ../../AI-Learning-Roadmap.md
 :start-after: "## How To Use This Roadmap"
-:end-before: "## Part I. Foundations | 基础底座"
+:end-before: "## Suggested Learning Journey"
 ```
-
-## 中文目录
-
-0. 前言（当前页）
-1. [第一章 基础底座](chapter-1.md)
-2. [第二章 模型世界](chapter-2.md)
-3. [第三章 系统与基础设施](chapter-3.md)
-4. [第四章 应用与生态](chapter-4.md)
-5. [第五章 前沿与交叉](chapter-5.md)
-6. [附录 角色路线与开源说明](appendix.md)
-
-## English Contents
-
-0. Preface (this page)
-1. [Chapter 1. Foundations](chapter-1.md)
-2. [Chapter 2. Models](chapter-2.md)
-3. [Chapter 3. Systems and Infrastructure](chapter-3.md)
-4. [Chapter 4. Applications and Ecosystem](chapter-4.md)
-5. [Chapter 5. Frontier](chapter-5.md)
-6. [Appendix. Role-based Tracks and Open-source Notes](appendix.md)
