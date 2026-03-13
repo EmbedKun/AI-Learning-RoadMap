@@ -69,5 +69,53 @@ latex_elements = {
 \setcounter{tocdepth}{2}
 \setcounter{secnumdepth}{3}
 \setcounter{chapter}{-1}
+\definecolor{RoadmapInk}{HTML}{162033}
+\definecolor{RoadmapAccent}{HTML}{B8892D}
+\definecolor{RoadmapLine}{HTML}{D9C9A5}
+
+\newcommand{\RoadmapTitlePage}{
+  \begin{titlepage}
+  \thispagestyle{empty}
+  \begingroup
+  \centering
+  \vspace*{0.12\textheight}
+  {\fontsize{30}{36}\selectfont\bfseries\color{RoadmapInk} AI Learning\par}
+  \vspace{0.18cm}
+  {\fontsize{30}{36}\selectfont\bfseries\color{RoadmapInk} Roadmap\par}
+  \vspace{1.1cm}
+  {\color{RoadmapLine}\rule{0.7\textwidth}{0.9pt}\par}
+  \vspace{1.0cm}
+  {\Large\itshape\color{RoadmapInk} A full-stack roadmap for learning AI\par}
+  \vspace{0.28cm}
+  {\large\color{RoadmapInk} from first principles to models, systems,\par}
+  {\large\color{RoadmapInk} infrastructure, and products.\par}
+  \vfill
+  {\large\color{RoadmapAccent} Minkun Xue\par}
+  \vspace*{0.09\textheight}
+  \endgroup
+  \end{titlepage}
+}
+
+\newcommand{\RoadmapBackCover}{
+  \clearpage
+  \thispagestyle{empty}
+  \begingroup
+  \centering
+  \vspace*{\fill}
+  {\color{RoadmapLine}\rule{0.58\textwidth}{0.9pt}\par}
+  \vspace{1.3cm}
+  \begin{minipage}{0.76\textwidth}
+  \centering
+  {\Large\itshape\color{RoadmapInk}
+  A full-stack roadmap for learning AI from first principles to models, systems, infrastructure, and products.\par}
+  \end{minipage}
+  \vspace{1.3cm}
+  {\color{RoadmapLine}\rule{0.58\textwidth}{0.9pt}\par}
+  \vspace*{\fill}
+  \endgroup
+  \clearpage
+}
 """,
+    "maketitle": r"\RoadmapTitlePage",
+    "atendofbody": r"\RoadmapBackCover",
 }
