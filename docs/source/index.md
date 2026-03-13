@@ -1,19 +1,29 @@
-# AI Learning Roadmap
+# Preface | 前言
 
 ```{toctree}
-:maxdepth: 2
-:caption: Contents
+:hidden:
+:titlesonly:
 
-roadmap
+chapter-1
+chapter-2
+chapter-3
+chapter-4
+chapter-5
+appendix
 ```
 
-A full-stack roadmap for learning AI from first principles to models, systems, infrastructure, and products.
+> A full-stack roadmap for learning AI from first principles to models, systems, infrastructure, and products.  
+> Author: **mkxue**
 
 This documentation site now uses **Sphinx + the Read the Docs theme**, so the online docs and the downloadable PDF follow the same publishing pipeline as technical projects like Corundum.
 
-- Start with the [full roadmap](roadmap.md)
 - Browse the [GitHub repository](https://github.com/EmbedKun/AI-Learning-RoadMap)
 - Use the **Downloads** menu in Read the Docs to get the generated PDF
+
+```{include} ../../AI-Learning-Roadmap.md
+:start-after: "## Why This Roadmap Exists"
+:end-before: "## The Big Picture"
+```
 
 ## The Big Picture
 
@@ -33,8 +43,31 @@ The full learning journey, from foundations to models, systems, infrastructure, 
 The five-layer AI stack: energy and data center, chips, infrastructure, models, and applications.
 ```
 
-## Reading Guide
+真正的 AI 判断力，来自于能在这些层之间来回切换视角。
 
-1. Read `The Big Picture` and `Suggested Learning Journey` first.
-2. Use the roadmap as a long-horizon map rather than a checklist to finish in one pass.
-3. Pair each learning stage with an output you can verify: notes, code, experiments, or a demo.
+## How To Use This Roadmap
+
+```{include} ../../AI-Learning-Roadmap.md
+:start-after: "## How To Use This Roadmap"
+:end-before: "## Part I. Foundations | 基础底座"
+```
+
+## 中文目录
+
+0. 前言（当前页）
+1. [第一章 基础底座](chapter-1.md)
+2. [第二章 模型世界](chapter-2.md)
+3. [第三章 系统与基础设施](chapter-3.md)
+4. [第四章 应用与生态](chapter-4.md)
+5. [第五章 前沿与交叉](chapter-5.md)
+6. [附录 角色路线与开源说明](appendix.md)
+
+## English Contents
+
+0. Preface (this page)
+1. [Chapter 1. Foundations](chapter-1.md)
+2. [Chapter 2. Models](chapter-2.md)
+3. [Chapter 3. Systems and Infrastructure](chapter-3.md)
+4. [Chapter 4. Applications and Ecosystem](chapter-4.md)
+5. [Chapter 5. Frontier](chapter-5.md)
+6. [Appendix. Role-based Tracks and Open-source Notes](appendix.md)
