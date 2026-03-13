@@ -4,14 +4,14 @@ A full-stack roadmap for learning AI from first principles to models, systems, i
 
 ## Who This Is For
 
-```{include} ../../AI-Learning-Roadmap.md
+```{include} ../../README.md
 :start-after: "## Who This Is For"
 :end-before: "## The Big Picture"
 ```
 
 ## Why This Roadmap Exists
 
-```{include} ../../AI-Learning-Roadmap.md
+```{include} ../../README.md
 :start-after: "## Why This Roadmap Exists"
 :end-before: "## Who This Is For"
 ```
