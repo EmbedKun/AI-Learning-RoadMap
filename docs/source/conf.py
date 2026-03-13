@@ -68,5 +68,6 @@ latex_elements = {
 \usepackage[UTF8]{ctex}
 \setcounter{tocdepth}{2}
 \setcounter{secnumdepth}{3}
+\setcounter{chapter}{-1}
 """,
 }

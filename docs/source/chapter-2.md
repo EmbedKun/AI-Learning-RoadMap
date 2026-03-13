@@ -1,4 +1,4 @@
-# Chapter 2. Models
+# Models
 
 
 ## NLP and Large Language Models | 自然语言处理与大模型

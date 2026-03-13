@@ -1,4 +1,4 @@
-# Chapter 1. Foundations
+# Foundations
 
 
 ## History and Intellectual Lineage | 历史与思想脉络
