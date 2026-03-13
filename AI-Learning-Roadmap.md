@@ -35,11 +35,11 @@
 
 ## The Big Picture
 
-![The Big Picture](./AI-learning-flow-diagram.svg)
+![The Big Picture](./AI-learning-flow-diagram.png)
 
 如果只能记住一张图，那就是这张五层图：
 
-![AI Five-layer Stack](./AI的五层-能源-芯片-infra-模型-应用.png)
+![AI Five-layer Stack](./AI-five-layer-stack.png)
 
 真正的 AI 判断力，来自于能在这些层之间来回切换视角。
 
@@ -837,25 +837,34 @@
 
 ```text
 .
+├── README.md
 ├── AI-Learning-Roadmap.md
-├── scripts/
-│   └── render-roadmap-pdf.mjs
-├── package.json
-└── AI-Learning-Roadmap.pdf
+├── .readthedocs.yaml
+└── docs/
+    ├── requirements.txt
+    └── source/
+        ├── conf.py
+        ├── index.md
+        ├── roadmap.md
+        └── _static/
 ```
 
-## Build the Ebook
+## Build the Docs
 
-这份 roadmap 不只是 markdown，也可以被渲染成 PDF 电子书。
+这份 roadmap 现在使用 Sphinx + Read the Docs theme 作为主文档链路。  
+连接到 Read the Docs 之后，GitHub 更新会自动触发 HTML 和 PDF 重建。
 
 ```bash
-npm install
-npm run build:pdf
+python3 -m venv .venv-docs
+./.venv-docs/bin/pip install -r docs/requirements.txt
+./.venv-docs/bin/sphinx-build -b html docs/source docs/_build/html
 ```
 
-默认输出文件：
+如果你想在本地生成 LaTeX 源文件，可以继续运行：
 
-- `AI-Learning-Roadmap.pdf`
+```bash
+./.venv-docs/bin/sphinx-build -b latex docs/source docs/_build/latex
+```
 
 ---
 
