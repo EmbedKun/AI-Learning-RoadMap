@@ -11,6 +11,7 @@
 - Token / Tokenization
 - Embedding / Word2Vec
 - 位置编码
+- Word2Vec Algorithm Family
 - 注意力 / 自注意力 / 多头注意力
 
 ### Transformer Backbone | Transformer 主干
