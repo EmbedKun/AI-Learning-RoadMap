@@ -35,11 +35,15 @@
 
 ## The Big Picture
 
-![The Big Picture](./AI-learning-flow-diagram.png)
+<p align="center">
+  <img src="./AI-learning-flow-diagram.png" alt="The Big Picture" width="760">
+</p>
 
 如果只能记住一张图，那就是这张五层图：
 
-![AI Five-layer Stack](./AI-five-layer-stack.png)
+<p align="center">
+  <img src="./AI-five-layer-stack.png" alt="AI Five-layer Stack" width="680">
+</p>
 
 真正的 AI 判断力，来自于能在这些层之间来回切换视角。
 
