@@ -1,7 +1,5 @@
 # AI Learning Roadmap
 
-A full-stack roadmap for learning AI from first principles to models, systems, infrastructure, and products.
-
 ```{toctree}
 :hidden:
 :titlesonly:

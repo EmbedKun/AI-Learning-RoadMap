@@ -1,12 +1,6 @@
 # Preface
 
 A full-stack roadmap for learning AI from first principles to models, systems, infrastructure, and products.  
-Author: **mkxue**
-
-This documentation site now uses **Sphinx + the Read the Docs theme**, so the online docs and the downloadable PDF follow the same publishing pipeline as technical projects like Corundum.
-
-- Browse the [GitHub repository](https://github.com/EmbedKun/AI-Learning-RoadMap)
-- Use the **Downloads** menu in Read the Docs to get the generated PDF
 
 ## Who This Is For
 
@@ -27,7 +21,7 @@ This documentation site now uses **Sphinx + the Read the Docs theme**, so the on
 ```{figure} _static/AI-learning-flow-diagram.png
 :alt: The Big Picture
 :align: center
-:width: 78%
+:width: 72%
 
 The full learning journey, from foundations to models, systems, infrastructure, and applications.
 ```
@@ -41,3 +35,9 @@ The five-layer AI stack: energy and data center, chips, infrastructure, models, 
 ```
 
 真正的 AI 判断力，来自于能在这些层之间来回切换视角。
+
+## More
+This documentation site now uses **Sphinx + the Read the Docs theme**, so the online docs and the downloadable PDF follow the same publishing pipeline as technical projects like Corundum.
+
+- Browse the [GitHub repository](https://github.com/EmbedKun/AI-Learning-RoadMap)
+- Use the **Downloads** menu in Read the Docs to get the generated PDF
