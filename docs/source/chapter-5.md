@@ -1,6 +1,5 @@
 # Chapter 5. Frontier
 
-_前沿与交叉_
 
 ## Frontier and Cross-disciplinary Directions | 前沿、交叉与宏观方向
 

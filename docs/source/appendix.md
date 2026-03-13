@@ -1,7 +1,5 @@
 # Appendix
 
-_附录_
-
 ## Suggested Learning Journey
 
 ```{include} ../../AI-Learning-Roadmap.md

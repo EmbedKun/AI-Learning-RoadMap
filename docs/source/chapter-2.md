@@ -1,6 +1,5 @@
 # Chapter 2. Models
 
-_模型世界_
 
 ## NLP and Large Language Models | 自然语言处理与大模型
 

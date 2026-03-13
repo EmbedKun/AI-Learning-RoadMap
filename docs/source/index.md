@@ -1,19 +1,4 @@
 # Preface
-
-_前言_
-
-```{toctree}
-:hidden:
-:titlesonly:
-
-chapter-1
-chapter-2
-chapter-3
-chapter-4
-chapter-5
-appendix
-```
-
 > A full-stack roadmap for learning AI from first principles to models, systems, infrastructure, and products.  
 > Author: **mkxue**
 
@@ -21,26 +6,6 @@ This documentation site now uses **Sphinx + the Read the Docs theme**, so the on
 
 - Browse the [GitHub repository](https://github.com/EmbedKun/AI-Learning-RoadMap)
 - Use the **Downloads** menu in Read the Docs to get the generated PDF
-
-## English Contents
-
-1. [Preface](index.md)
-2. [Chapter 1. Foundations](chapter-1.md)
-3. [Chapter 2. Models](chapter-2.md)
-4. [Chapter 3. Systems and Infrastructure](chapter-3.md)
-5. [Chapter 4. Applications and Ecosystem](chapter-4.md)
-6. [Chapter 5. Frontier](chapter-5.md)
-7. [Appendix](appendix.md)
-
-## 中文目录
-
-1. [前言](index.md)
-2. [第一章 基础底座](chapter-1.md)
-3. [第二章 模型世界](chapter-2.md)
-4. [第三章 系统与基础设施](chapter-3.md)
-5. [第四章 应用与生态](chapter-4.md)
-6. [第五章 前沿与交叉](chapter-5.md)
-7. [附录](appendix.md)
 
 ## Who This Is For
 
@@ -76,9 +41,14 @@ The five-layer AI stack: energy and data center, chips, infrastructure, models, 
 
 真正的 AI 判断力，来自于能在这些层之间来回切换视角。
 
-## How To Use This Roadmap
+```{toctree}
+:hidden:
+:titlesonly:
 
-```{include} ../../AI-Learning-Roadmap.md
-:start-after: "## How To Use This Roadmap"
-:end-before: "## Suggested Learning Journey"
+chapter-1
+chapter-2
+chapter-3
+chapter-4
+chapter-5
+appendix
 ```

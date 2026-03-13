@@ -1,6 +1,5 @@
 # Chapter 3. Systems and Infrastructure
 
-_系统与基础设施_
 
 ## Energy, Data Centers, and Cost | 能源、数据中心与成本
 

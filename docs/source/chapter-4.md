@@ -1,6 +1,5 @@
 # Chapter 4. Applications and Ecosystem
 
-_应用与生态_
 
 ## AI Application Development | AI 应用开发：从模型到产品
 

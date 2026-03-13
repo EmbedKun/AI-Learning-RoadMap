@@ -1,6 +1,5 @@
 # Chapter 1. Foundations
 
-_基础底座_
 
 ## History and Intellectual Lineage | 历史与思想脉络
 
