@@ -89,6 +89,8 @@ latex_elements = {
   \vspace{0.28cm}
   {\large\color{RoadmapInk} from first principles to models, systems,\par}
   {\large\color{RoadmapInk} infrastructure, and products.\par}
+  \vspace{0.9cm}
+  {\large\color{RoadmapAccent} 2026, March\par}
   \vfill
   {\large\color{RoadmapAccent} Minkun Xue\par}
   \vspace*{0.09\textheight}
@@ -103,13 +105,13 @@ latex_elements = {
   \centering
   \vspace*{\fill}
   {\color{RoadmapLine}\rule{0.58\textwidth}{0.9pt}\par}
-  \vspace{1.3cm}
+  \vspace{0.9cm}
   \begin{minipage}{0.76\textwidth}
   \centering
   {\Large\itshape\color{RoadmapInk}
   A full-stack roadmap for learning AI from first principles to models, systems, infrastructure, and products.\par}
   \end{minipage}
-  \vspace{1.3cm}
+  \vspace{0.9cm}
   {\color{RoadmapLine}\rule{0.58\textwidth}{0.9pt}\par}
   \vspace*{\fill}
   \endgroup
