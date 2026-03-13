@@ -1,0 +1,184 @@
+:root {
+  --md-primary-fg-color: #111111;
+  --md-primary-fg-color--light: #232323;
+  --md-primary-fg-color--dark: #000000;
+  --md-accent-fg-color: #d2a73f;
+  --md-default-bg-color: #f6f3ed;
+  --md-typeset-color: #1f2933;
+  --md-typeset-a-color: #8d6511;
+}
+
+[data-md-color-scheme="default"] {
+  --roadmap-surface: rgba(255, 250, 241, 0.9);
+  --roadmap-border: rgba(31, 41, 51, 0.08);
+  --roadmap-shadow: 0 24px 60px rgba(17, 17, 17, 0.08);
+  --roadmap-heading: #13171c;
+  --roadmap-muted: #52606d;
+  --roadmap-card: linear-gradient(180deg, rgba(255, 252, 246, 0.96), rgba(247, 241, 231, 0.96));
+  --roadmap-hero: radial-gradient(circle at top left, rgba(255, 219, 138, 0.38), transparent 32%), linear-gradient(135deg, #fffaf1 0%, #f2ece2 54%, #efe5d8 100%);
+}
+
+body,
+input,
+button {
+  font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+}
+
+.md-typeset,
+.md-typeset p,
+.md-typeset li,
+.md-typeset blockquote {
+  font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  color: var(--roadmap-heading);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.md-typeset h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.md-typeset h2 {
+  margin-top: 2.6rem;
+  padding-top: 0.2rem;
+  border-top: 1px solid rgba(17, 17, 17, 0.08);
+}
+
+.md-typeset p,
+.md-typeset li {
+  font-size: 0.98rem;
+  line-height: 1.9;
+}
+
+.md-main {
+  background:
+    radial-gradient(circle at top right, rgba(255, 224, 163, 0.2), transparent 24%),
+    linear-gradient(180deg, #fbf8f3 0%, #f3ede3 100%);
+}
+
+.md-main__inner {
+  margin-top: 0;
+}
+
+.md-grid {
+  max-width: 84rem;
+}
+
+.md-header {
+  background: rgba(17, 17, 17, 0.88);
+  backdrop-filter: blur(14px);
+}
+
+.md-tabs {
+  background: rgba(17, 17, 17, 0.94);
+}
+
+.md-content__inner {
+  margin: 0 auto 3rem;
+  padding: 2.2rem 1.2rem 3.2rem;
+}
+
+.md-content__inner > .md-typeset {
+  background: var(--roadmap-surface);
+  border: 1px solid var(--roadmap-border);
+  border-radius: 28px;
+  box-shadow: var(--roadmap-shadow);
+  padding: 2.4rem clamp(1.25rem, 2vw, 2.8rem) 3rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+  gap: 2rem;
+  align-items: center;
+  background: var(--roadmap-hero);
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 28px;
+  box-shadow: 0 20px 50px rgba(17, 17, 17, 0.1);
+  overflow: hidden;
+  padding: clamp(1.4rem, 3vw, 2.6rem);
+  margin: 0 0 2rem;
+}
+
+.hero-grid blockquote {
+  border-left: 0;
+  margin: 0 0 1.2rem;
+  padding: 0;
+  color: var(--roadmap-heading);
+  font-size: 1.05rem;
+}
+
+.hero-image,
+.overview-image,
+.md-typeset img {
+  display: block;
+  width: 100%;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 18px 38px rgba(17, 17, 17, 0.12);
+}
+
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li {
+  background: var(--roadmap-card);
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 22px;
+  box-shadow: 0 14px 34px rgba(17, 17, 17, 0.08);
+}
+
+.md-typeset .md-button {
+  border-radius: 999px;
+  padding: 0.72em 1.2em;
+}
+
+.md-typeset .md-button--primary {
+  background: linear-gradient(135deg, #111111, #2b2b2b);
+  border-color: #111111;
+}
+
+.md-typeset blockquote {
+  border-left: 3px solid rgba(210, 167, 63, 0.7);
+  background: rgba(255, 250, 241, 0.72);
+  border-radius: 0 18px 18px 0;
+  padding: 0.9rem 1rem;
+}
+
+.md-typeset hr {
+  border-bottom-color: rgba(17, 17, 17, 0.08);
+}
+
+.md-typeset code,
+.md-typeset pre code {
+  font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+}
+
+.md-footer {
+  background: #111111;
+}
+
+@media screen and (max-width: 76.2344em) {
+  .md-content__inner > .md-typeset {
+    padding: 1.7rem 1rem 2.4rem;
+    border-radius: 22px;
+  }
+}
+
+@media screen and (max-width: 60em) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .md-typeset h1 {
+    font-size: 1.8rem;
+  }
+}

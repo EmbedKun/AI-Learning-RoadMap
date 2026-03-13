@@ -1,7 +1,7 @@
 # AI Learning Roadmap
 
 > A full-stack roadmap for learning AI from first principles to models, systems, infra, and products.  
-> Author: **Minkun Xue**
+> Author: **mkxue**
 
 ## Why This Roadmap Exists
 
@@ -504,6 +504,24 @@
 - Roofline
 - 带宽瓶颈 / 时延分解 / 显存分析 / 成本分析
 
+#### 8.11 AI Chip | AI芯片
+- AI 芯片的动机：CPU / GPU / NPU / ASIC / FPGA 的区别
+- AI 工作负载：GEMM / Convolution / Attention / KV Cache / Sparsity
+- AI 芯片核心架构：PE / MAC / Systolic Array / Dataflow / NoC
+- 存储系统：SRAM / HBM / Memory Hierarchy
+- 设计目标：Performance / Power / Area（PPA）
+- 系统扩展：封装 / Chiplet / HBM / die-to-die interconnect / WaferScale
+- 软硬件协同：Compiler / Runtime / Mapping / Co-design
+- 数据搬运成本高于计算成本
+- 峰值算力高但利用率低
+- 内存墙 / 带宽墙
+- 功耗墙 / 热墙
+- Transformer、MoE、KV Cache 等新负载对硬件不友好
+- 专用化与通用化的矛盾
+- 稀疏性硬件支持收益不稳定
+- 封装、HBM、Chiplet 已成为架构设计的一部分
+- 软硬件协同设计
+
 ### 9. AI Infra, Networks, Distributed Training, and Inference | AI Infra：网络、通信、分布式训练与推理系统
 
 > Goal: 看清大模型训练与推理背后的网络和分布式系统问题。  
@@ -754,7 +772,7 @@
 
 #### 14.2 Top Conferences | 顶会
 
-- NeurIPS / ICML / ICLR / CVPR / ICCV / ECCV / ACL / EMNLP / NAACL / MLSys / OSDI / SOSP / ASPLOS / MICRO / RSS / ICRA / IROS / AAAI
+- NeurIPS / ICML / ICLR / CVPR / ICCV / ECCV / ACL / EMNLP / NAACL / MLSys / OSDI / SOSP / ASPLOS / MICRO / RSS / ICRA / IROS / AAAI / NSDI / SIGCOMM / ISSCC / ISCA
 
 #### 14.3 Long-term Input Sources | 长期输入源
 
@@ -776,6 +794,7 @@
 - 数据中心光电混合双平面
 - CPO
 - Chiplet / WaferScale 工艺
+- SDNLAB认知互联网
 - 世界模型
 - 具身智能
 - AI Agent
@@ -783,12 +802,7 @@
 - 量子计算与量子深度学习
 - AI for Science
 - 知识图谱
-- 专家混合架构
-- 机器人基础概念
-- 动力学与运动学
-- 机器人仿真
-- 机器人决策算法
-- 机器人运动控制 / VLA / VLN / 可信具身智能系统
+- 机器人仿真/决策算法/运动控制
 
 ---
 
@@ -818,18 +832,16 @@
 
 - 保持这份文档长期更新，而不是一次性列完清单
 - 每完成一个阶段，补充推荐论文、课程、代码仓库和项目案例
-- 如果未来拆仓库，建议把每一部分发展为独立目录或独立子项目
 
-建议的仓库结构可以长这样：
+仓库结构：
 
 ```text
 .
-├── README.md
-├── AI’s Learning List.md
+├── AI-Learning-Roadmap.md
 ├── scripts/
 │   └── render-roadmap-pdf.mjs
 ├── package.json
-└── AI-Learning-Roadmap-Minkun-Xue.pdf
+└── AI-Learning-Roadmap.pdf
 ```
 
 ## Build the Ebook
@@ -843,7 +855,7 @@ npm run build:pdf
 
 默认输出文件：
 
-- `AI-Learning-Roadmap-Minkun-Xue.pdf`
+- `AI-Learning-Roadmap.pdf`
 
 ---
 

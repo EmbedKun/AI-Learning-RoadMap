@@ -1,7 +1,13 @@
-# AI Learning Roadmap
+---
+title: Full Roadmap
+---
+
+# Full Roadmap
 
 > A full-stack roadmap for learning AI from first principles to models, systems, infra, and products.  
-> Author: **mkxue**
+> Author: **Minkun Xue**
+
+[Download the PDF edition](assets/downloads/AI-Learning-Roadmap.pdf){ .md-button }
 
 ## Why This Roadmap Exists
 
@@ -35,11 +41,11 @@
 
 ## The Big Picture
 
-![The Big Picture](./AI-learning-flow-diagram.svg)
+![The Big Picture](assets/images/AI-learning-flow-diagram.svg)
 
 如果只能记住一张图，那就是这张五层图：
 
-![AI Five-layer Stack](./AI的五层-能源-芯片-infra-模型-应用.png)
+![AI Five-layer Stack](assets/images/AI-five-layer-stack.png)
 
 真正的 AI 判断力，来自于能在这些层之间来回切换视角。
 

@@ -8,9 +8,9 @@ import puppeteer from 'puppeteer';
 const cwd = process.cwd();
 const defaultInput = fs.existsSync(path.resolve(cwd, 'README.md'))
   ? 'README.md'
-  : "AI’s Learning List.md";
+  : 'AI-Learning-Roadmap.md';
 const inputPath = path.resolve(cwd, process.argv[2] || defaultInput);
-const outputPath = path.resolve(cwd, process.argv[3] || 'AI-Learning-Roadmap-Minkun-Xue.pdf');
+const outputPath = path.resolve(cwd, process.argv[3] || 'AI-Learning-Roadmap.pdf');
 const htmlPath = path.resolve(cwd, '.roadmap-book-render.html');
 const inputDir = path.dirname(inputPath);
 

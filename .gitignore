@@ -4,6 +4,7 @@
 
 # Node dependencies
 node_modules/
+.venv-docs/
 
 # Local render temp files
 .roadmap-book-render.html
@@ -11,6 +12,7 @@ node_modules/
 .page-counter-test.pdf
 .footer-test.html
 .footer-test.pdf
+site/
 
 # Logs
 npm-debug.log*
