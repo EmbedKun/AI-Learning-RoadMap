@@ -109,8 +109,9 @@ latex_elements = {
   \begin{minipage}{0.68\textwidth}
     \centering
     {\Large\itshape\color{RoadmapInk}
-    A full-stack roadmap for learning AI from first principles\\
-     to models, systems, infrastructure, and products.\par}
+    A full-stack roadmap for learning AI from first principles
+     to models, systems, infrastructure, and products.\\
+     \par}
   \end{minipage}
   \vspace{0.9cm}
   {\color{RoadmapLine}\rule{0.58\textwidth}{0.9pt}\par}
