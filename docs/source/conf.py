@@ -106,10 +106,10 @@ latex_elements = {
   \vspace*{\fill}
   {\color{RoadmapLine}\rule{0.58\textwidth}{0.9pt}\par}
   \vspace{0.9cm}
-  \begin{minipage}{0.76\textwidth}
-  \centering
-  {\Large\itshape\color{RoadmapInk}
-  A full-stack roadmap for learning AI from first principles to models, systems, infrastructure, and products.\par}
+  \begin{minipage}{0.68\textwidth}
+    \centering
+    {\Large\itshape\color{RoadmapInk}
+    A full-stack roadmap for learning AI from first principles to models, systems, infrastructure, and products.\par}
   \end{minipage}
   \vspace{0.9cm}
   {\color{RoadmapLine}\rule{0.58\textwidth}{0.9pt}\par}
@@ -121,3 +121,4 @@ latex_elements = {
     "maketitle": r"\RoadmapTitlePage",
     "atendofbody": r"\RoadmapBackCover",
 }
+
