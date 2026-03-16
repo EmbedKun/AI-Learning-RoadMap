@@ -41,3 +41,4 @@ This documentation site now uses **Sphinx + the Read the Docs theme**, so the on
 
 - Browse the [GitHub repository](https://github.com/EmbedKun/AI-Learning-RoadMap)
 - Use the **Downloads** menu in Read the Docs to get the generated PDF
+- Salute Stanford University CS336
